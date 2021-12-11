@@ -21,6 +21,7 @@ botcmd = Client(
     api_hash=API_HASH,
     bot_token=BOT_TOKEN,
 )
+botcmd.run()
 botcmd.send_message({LOG_CHANNEL}, "Started")
 print("Started")
 
@@ -52,4 +53,4 @@ async def start(botcmd, message):
         print("wikiBot: Invalid command")
 
 
-botcmd.run()
+
