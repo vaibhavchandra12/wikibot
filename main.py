@@ -10,10 +10,10 @@ from pyrogram.types import (
 
 
 # configs
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-LOG_CHANNEL = int(os.getenv("LOG_CHANNEL"))
+API_ID = int("3172113")
+API_HASH = "0a858f5c94f7030ee71e7f65f6d1b965"
+BOT_TOKEN = "2125872006:AAF2AWyM6FeZkCTN1o_fIbXqQlJ78gXHWQM"
+LOG_CHANNEL = int("-1001551828970")
 
 # handler
 botcmd = Client(
