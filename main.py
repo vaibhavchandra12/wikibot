@@ -1,5 +1,4 @@
 from pyrogram import Client
-from config import Config
 import os
 import wikipedia as wiki
 from pyrogram import filters
